@@ -10,7 +10,15 @@ Bu proje, **California Housing** veri seti kullanılarak geliştirilmiş bir mak
 
 ### 🛠️ Kurulum ve Çalıştırma
 
-**1. Backend Kurulumu (Python)**
+
+**1. Frontend Kurulumu (React)**
+# Proje ana dizinindeyken frontend klasörüne girip başlatma
+cd emlak-frontend
+npm install
+npm start
+
+
+**2. Backend Kurulumu (Python)**
 ```bash
 # Sanal ortam oluşturma ve aktif etme
 python3 -m venv venv
@@ -22,8 +30,5 @@ pip install -r requirements.txt
 # Sunucuyu başlatma
 uvicorn main:app --reload
 
-**2. Frontend Kurulumu (React)**
-# Proje ana dizinindeyken:
-cd emlak-frontend
-npm install
-npm start
+
+
