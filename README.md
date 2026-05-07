@@ -1,4 +1,3 @@
-cat <<EOF > README.md
 # 🏠 Emlak Fiyat Tahmin Analizi
 
 Bu proje, **California Housing** veri seti kullanılarak geliştirilmiş bir makine öğrenmesi uygulamasıdır. 
